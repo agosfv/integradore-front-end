@@ -480,7 +480,7 @@
         background-color: blue;
     }
 }
-@media (min-width: 2501px) and (max-width: 10000px) {
+@media (min-width: 2501px) and (max-width: 3500px) {
     #logo {
         display: inline-flex;
         justify-content: flex-start;
