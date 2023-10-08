@@ -70,8 +70,8 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <div class="container-fluid">
-            <div class=" hola row col-xxl-6 col-xl-8 col-lg-11 col-md-11 col-sm-10">
+        <div class="hola container-fluid">
+            <div class="row col-xxl-6 col-xl-8 col-lg-11 col-md-11 col-sm-10">
                 <h3>Conf Bs As</h3>
                 <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el
                     conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a
@@ -135,9 +135,10 @@
     </main>
     <section>
         <div id="honolulu" class="container-fluid">
-            <span class="row col-xxl-6">
+            <span class="row col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
                 <img src="./assets/honolulu.jpg" alt=""></span>
             <span id="textohon" class="row col-xxl-6">
+                <div>
                 <h4>Bs As - Octubre </h4>
                 <p> Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos.
                     Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de
@@ -146,45 +147,62 @@
                     km² de superficie).
                 </p>
                 <div>
-                    <button type="button" class="btn btn-primary btn-sm">Small button</button>
+                    <button type="button" class="btn btn-outline-light btn-sm">Conoce mas</button>
                 </div>
+            </div>
             </span>
         </div>
     </section>
-    <section>
+    <section id="form" class="row col-xxl-10 col-xl-10 col-lg-12 col-md-12 col-sm-12">
         <div>
-            <div class="row col-xxl-6 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+            <div class="row col-12">
                 <h2>CONVIERTETE EN</h2>
                 <h3><b>ORADOR</b></h3>
-            </div>
-            <div class="">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="row col-6 mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div class="row col-12">
-                <button class="btn btn-primary" type="button">Button</button>
+                <h4>Anotate como orador para dar una charla.ignite. Cuentanos de que quieres hablar!</h4>
             </div>
 
+            <div id="completa" class="row">
+                <div class="col-5">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col-5">
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+                <br>
+                <div class="col-10">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="Sobre que queres hablar?">
+                </div>
+                <h5>Recuerda incluir un titulo para tu charla</h5>
+                <div class="row col-10">
+                    <button id="btnform" class="btn  btn-primary" type="button">Enviar</button>
+                </div>
+            </div>
         </div>
     </section>
     <footer>
-        <div>
+        <div id="footer">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Active</a>
+                    <a class="nav-link active" aria-current="page" href="#">Preguntas frecuentes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">Contactanos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">Prensa</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    <a class="nav-link disabled" aria-disabled="true">conferencias</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Terminos y condiciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Privacidad</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Estudiantes</a>
                 </li>
             </ul>
         </div>

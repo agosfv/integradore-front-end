@@ -64,6 +64,42 @@
     color: azure;
     width: fit-content
 }
+#form{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+#btnform{
+    background-color: rgb(69, 223, 69);
+    border:rgb(69, 223, 69);
+}
+#completa{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#completa h5{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    margin-left: 250px;
+
+    color: grey;
+}
+#footer{
+    background-color: rgb(108, 126, 173);
+    margin: 10px;
+}
+#footer li{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+#footer li a{
+    color: azure;
+}
 
 @media (min-width: 1px) and (max-width: 768px) {
 
@@ -132,6 +168,13 @@
         display: block;
         text-align: center;
         margin-top: 15px;
+    }
+#honolulu span{
+width: fit-content;
+margin: auto;
+}
+    #textohon{
+        background-color: grey;
     }
 
     }
@@ -365,15 +408,13 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    #habilidades {
 
-    }
 
     #honolulu{
         display: inline-flex;
     }
     #textohon{
-        background-color: beige;
+        background-color: grey;
     }
     #form{
         display: flex;
@@ -424,7 +465,7 @@
     .hola {
         position: absolute;
         font-size: 1.5vh;
-        top: 26vh;
+        top: 50vh;
         right: 5vh;
     
         text-align: end;
@@ -468,7 +509,7 @@
         display: inline-flex;
     }
     #textohon{
-        background-color: beige;
+        background-color: grey;
     }
     #form{
         display: flex;
@@ -519,7 +560,7 @@
     .hola {
         position: absolute;
         font-size: 1.5vh;
-        top: 10vh;
+        top: 75vh;
         right: 5vh;
     
         text-align: end;
@@ -614,7 +655,7 @@
     .hola {
         position: absolute;
         font-size: 1.5vh;
-        top: 20vh;
+        top: 95vh;
         right: 5vh;
     
         text-align: end;
