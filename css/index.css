@@ -3,7 +3,7 @@
     color: azure;
 }
 
-.uno span a {
+.barranav span a {
     color: rgb(199, 196, 196);
 }
 
@@ -28,7 +28,8 @@
     background-color: rgb(69, 223, 69);
     outline: rgb(69, 223, 69);
 }
-#habilidades div{
+
+#habilidades div {
     display: inline-flex;
     padding: 5px;
     font-style: ;
@@ -36,6 +37,7 @@
     margin: 5px;
     width: fit-content;
 }
+
 .javas {
     border: solid 2px yellow;
     color: black;
@@ -64,40 +66,43 @@
     color: azure;
     width: fit-content
 }
-#form{
+
+
+#form {
     display: flex;
     justify-content: center;
     margin: auto;
     text-align: center;
     align-items: center;
 }
-#btnform{
+
+#btnform {
     background-color: rgb(69, 223, 69);
-    border:rgb(69, 223, 69);
+    border: rgb(69, 223, 69);
 }
-#completa{
+
+#completa {
     display: flex;
     justify-content: center;
     margin: auto;
 }
-#completa h5{
-    display: flex;
-    justify-content: flex-start;
-    text-align: left;
-    margin-left: 250px;
 
+#completa h5 {
     color: grey;
 }
-#footer{
+
+#footer {
     background-color: rgb(108, 126, 173);
     margin: 10px;
 }
-#footer li{
+
+#footer li {
     display: flex;
     justify-content: space-between;
     margin: auto;
 }
-#footer li a{
+
+#footer li a {
     color: azure;
 }
 
@@ -134,7 +139,7 @@
         display: none;
     }
 
-    .hola {
+    .textocarrusel {
         display: flex;
         justify-content: space-evenly;
         text-align: center;
@@ -158,26 +163,35 @@
         margin: auto;
     }
 
-    #desc{
+    #desc {
         display: flex;
         justify-content: center;
         text-align: center;
         margin: auto;
     }
+
     .conoceora {
         display: block;
         text-align: center;
         margin-top: 15px;
     }
-#honolulu span{
-width: fit-content;
-margin: auto;
-}
-    #textohon{
+
+    #honolulu span {
+        width: fit-content;
+        margin: auto;
+    }
+
+    #textohon {
         background-color: grey;
     }
 
+    #comleta h5 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
+
+}
 
 @media (min-width: 769px) and (max-width: 960px) {
 
@@ -211,20 +225,20 @@ margin: auto;
         display: none;
     }
 
-    .hola {
+    .textocarrusel {
         position: absolute;
         font-size: 1vh;
         top: 28vh;
         right: 2vh;
         text-align: end;
-        color: aqua;
+        color: azure;
     }
 
-    .hola h3 {
+    .textocarrusel h3 {
         font-size: 3vh;
     }
 
-    .hola button {
+    .textocarrusel button {
         display: flex grid;
         justify-content: flex-end;
 
@@ -244,11 +258,21 @@ margin: auto;
     .conoceora h3 {
         font-size: 4vh;
     }
-    #mainfotos{
+
+    #mainimg {
+        margin: auto;
         display: flex;
-        justify-content: space-evenly;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    #comleta h5 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
 
 
@@ -288,21 +312,21 @@ margin: auto;
         display: none;
     }
 
-    .hola {
+    .textocarrusel {
         position: absolute;
         font-size: 1.5vh;
         top: 33vh;
         right: 3vh;
-    
+
         text-align: end;
-        color: aqua;
+        color: azure;
     }
 
-    .hola h3 {
+    .textocarrusel h3 {
         font-size: 2vh;
     }
 
-    .hola button {
+    .textocarrusel button {
         display: flex grid;
         justify-content: flex-end;
         margin: 10px;
@@ -322,17 +346,23 @@ margin: auto;
     .conoceora h3 {
         font-size: 8vh;
     }
-    #mainfotos{
+
+    #mainfotos {
         display: flex;
         justify-content: space-evenly;
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    #habilidades {
 
+    #comleta h5 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
-    
+
+
 }
+
 @media (min-width: 1181px) and (max-width: 1399px) {
     #logo {
         margin: auto;
@@ -368,21 +398,21 @@ margin: auto;
     }
 
 
-    .hola {
+    .textocarrusel {
         position: absolute;
         font-size: 1.5vh;
         top: 35vh;
         right: 5vh;
-    
+
         text-align: end;
-        color: aqua;
+        color: azure;
     }
 
-    .hola h3 {
+    .textocarrusel h3 {
         font-size: 2vh;
     }
 
-    .hola button {
+    .textocarrusel button {
         display: flex grid;
         justify-content: flex-end;
         margin: 10px;
@@ -402,7 +432,8 @@ margin: auto;
     .conoceora h3 {
         font-size: 8vh;
     }
-    #mainfotos{
+
+    #mainfotos {
         display: flex;
         justify-content: space-evenly;
         margin-top: 20px;
@@ -410,22 +441,29 @@ margin: auto;
     }
 
 
-    #honolulu{
+    #honolulu {
         display: inline-flex;
     }
-    #textohon{
+
+    #textohon {
         background-color: grey;
     }
-    #form{
+
+    #form {
         display: flex;
         justify-content: center;
         margin: auto;
         margin-bottom: 10px;
     }
-    footer{
-        background-color: blue;
+
+    #comleta h5 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
+
 }
+
 @media (min-width: 1400px) and (max-width: 2500px) {
     #logo {
         display: inline-flex;
@@ -438,7 +476,7 @@ margin: auto;
 
     }
 
-    .uno span a {
+    .barranav span a {
         display: inline-flex;
         justify-content: space-around;
         text-align: center;
@@ -462,21 +500,21 @@ margin: auto;
         display: none;
     }
 
-    .hola {
+    .textocarrusel {
         position: absolute;
         font-size: 1.5vh;
         top: 50vh;
         right: 5vh;
-    
+
         text-align: end;
-        color: aqua;
+        color: azure;
     }
 
-    .hola h3 {
+    .textocarrusel h3 {
         font-size: 2vh;
     }
 
-    .hola button {
+    .textocarrusel button {
         display: flex grid;
         justify-content: flex-end;
         margin: 10px;
@@ -496,215 +534,237 @@ margin: auto;
     .conoceora h3 {
         font-size: 8vh;
     }
-    #mainfotos{
+
+    #mainfotos {
         display: flex;
         justify-content: space-evenly;
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    #habilidades {
 
-    }
-    #honolulu{
+    #honolulu {
         display: inline-flex;
     }
-    #textohon{
+
+    #textohon {
         background-color: grey;
     }
-    #form{
+
+    #form {
         display: flex;
         justify-content: center;
         margin: auto;
         margin-bottom: 10px;
     }
-    footer{
-        background-color: blue;
+
+
+    #completa h5 {
+        display: flex;
+        justify-content: flex-start;
+        text-align: left;
+        margin-left: 350px;
     }
 }
-@media (min-width: 2501px) and (max-width: 3500px) {
-    #logo {
-        display: inline-flex;
-        justify-content: flex-start;
+
+    @media (min-width: 2501px) and (max-width: 3500px) {
+        #logo {
+            display: inline-flex;
+            justify-content: flex-start;
+        }
+
+        #confbsas {
+            display: inline-flex;
+            justify-content: flex-start;
+
+        }
+
+        .barranav span a {
+            display: inline-flex;
+            justify-content: space-around;
+            text-align: center;
+            margin: auto;
+            /*justify-content: space-around;*/
+            color: rgb(199, 196, 196);
+            font-size: 0.9em;
+        }
+
+        #laconf {
+            color: azure;
+            margin: auto;
+        }
+
+        #compratik {
+            color: rgb(69, 223, 69);
+            margin: auto;
+        }
+
+        #menu {
+            display: none;
+        }
+
+        .textocarrusel {
+            position: absolute;
+            font-size: 1.5vh;
+            top: 75vh;
+            right: 5vh;
+
+            text-align: end;
+            color: azure;
+        }
+
+        .textocarrusel h3 {
+            font-size: 2vh;
+        }
+
+        .textocarrusel button {
+            display: flex grid;
+            justify-content: flex-end;
+            margin: 10px;
+            color: azure;
+        }
+
+        .conoceora {
+            display: block;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .conoceora h2 {
+            font-size: 4vh;
+        }
+
+        .conoceora h3 {
+            font-size: 8vh;
+        }
+
+        #mainfotos {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 60px;
+            margin-bottom: 20px;
+        }
+
+        #honolulu {
+            display: inline-flex;
+        }
+
+        #textohon {
+            background-color: grey;
+        }
+
+        #form {
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+
+
+        #completa h5 {
+            display: flex;
+            justify-content: flex-start;
+            text-align: left;
+            margin-left: 400px;
+        }
     }
 
-    #confbsas {
-        display: inline-flex;
-        justify-content: flex-start;
+        @media (min-width: 3501px) and (max-width: 9999px) {
+            #logo {
+                display: inline-flex;
+                justify-content: flex-start;
+            }
 
-    }
+            #confbsas {
+                display: inline-flex;
+                justify-content: flex-start;
 
-    .uno span a {
-        display: inline-flex;
-        justify-content: space-around;
-        text-align: center;
-        margin: auto;
-        /*justify-content: space-around;*/
-        color: rgb(199, 196, 196);
-        font-size: 0.9em;
-    }
+            }
 
-    #laconf {
-        color: azure;
-        margin: auto;
-    }
+            .barranav span a {
+                display: inline-flex;
+                justify-content: space-around;
+                text-align: center;
+                margin: auto;
+                /*justify-content: space-around;*/
+                color: rgb(199, 196, 196);
+                font-size: 0.9em;
+            }
 
-    #compratik {
-        color: rgb(69, 223, 69);
-        margin: auto;
-    }
+            #laconf {
+                color: azure;
+                margin: auto;
+            }
 
-    #menu {
-        display: none;
-    }
+            #compratik {
+                color: rgb(69, 223, 69);
+                margin: auto;
+            }
 
-    .hola {
-        position: absolute;
-        font-size: 1.5vh;
-        top: 75vh;
-        right: 5vh;
-    
-        text-align: end;
-        color: aqua;
-    }
+            #menu {
+                display: none;
+            }
 
-    .hola h3 {
-        font-size: 2vh;
-    }
+            .textocarrusel {
+                position: absolute;
+                font-size: 1.5vh;
+                top: 95vh;
+                right: 5vh;
+                text-align: end;
+                color: azure;
+            }
 
-    .hola button {
-        display: flex grid;
-        justify-content: flex-end;
-        margin: 10px;
-        color: azure;
-    }
+            .textocarrusel h3 {
+                font-size: 2vh;
+            }
 
-    .conoceora {
-        display: block;
-        text-align: center;
-        margin: 20px;
-    }
+            .textocarrusel button {
+                display: flex grid;
+                justify-content: flex-end;
+                margin: 10px;
+                color: azure;
+            }
 
-    .conoceora h2 {
-        font-size: 4vh;
-    }
+            .conoceora {
+                display: block;
+                text-align: center;
+                margin: 20px;
+            }
 
-    .conoceora h3 {
-        font-size: 8vh;
-    }
-    #mainfotos{
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 60px;
-        margin-bottom: 20px;
-    }
-    #habilidades {
+            .conoceora h2 {
+                font-size: 4vh;
+            }
 
-    }
-    #honolulu{
-        display: inline-flex;
-    }
-    #textohon{
-        background-color: beige;
-    }
-    #form{
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        margin-bottom: 10px;
-    }
-    footer{
-        background-color: blue;
-    }
-}
-@media (min-width: 3501px) and (max-width: 9999px) {
-    #logo {
-        display: inline-flex;
-        justify-content: flex-start;
-    }
+            .conoceora h3 {
+                font-size: 8vh;
+            }
 
-    #confbsas {
-        display: inline-flex;
-        justify-content: flex-start;
+            #mainfotos {
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
 
-    }
 
-    .uno span a {
-        display: inline-flex;
-        justify-content: space-around;
-        text-align: center;
-        margin: auto;
-        /*justify-content: space-around;*/
-        color: rgb(199, 196, 196);
-        font-size: 0.9em;
-    }
+            #honolulu {
+                display: inline-flex;
+            }
 
-    #laconf {
-        color: azure;
-        margin: auto;
-    }
+            #textohon {
+                background-color: grey;
+            }
 
-    #compratik {
-        color: rgb(69, 223, 69);
-        margin: auto;
-    }
+            #form {
+                display: flex;
+                justify-content: center;
+                margin: auto;
+                margin-bottom: 10px;
+            }
 
-    #menu {
-        display: none;
-    }
-
-    .hola {
-        position: absolute;
-        font-size: 1.5vh;
-        top: 95vh;
-        right: 5vh;
-    
-        text-align: end;
-        color: aqua;
-    }
-
-    .hola h3 {
-        font-size: 2vh;
-    }
-
-    .hola button {
-        display: flex grid;
-        justify-content: flex-end;
-        margin: 10px;
-        color: azure;
-    }
-
-    .conoceora {
-        display: block;
-        text-align: center;
-        margin: 20px;
-    }
-
-    .conoceora h2 {
-        font-size: 4vh;
-    }
-
-    .conoceora h3 {
-        font-size: 8vh;
-    }
-    #mainfotos{
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    #habilidades {
-
-    }
-    #honolulu{
-        display: inline-flex;
-    }
-    #textohon{
-        background-color: beige;
-    }
-    #form{
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        margin-bottom: 10px;
-    }
-}
+            #completa h5 {
+                display: flex;
+                justify-content: flex-start;
+                text-align: left;
+                margin-left: 580px;
+            }
+        }
