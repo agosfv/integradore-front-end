@@ -229,7 +229,7 @@
     .textocarrusel {
         position: absolute;
         font-size: 1vh;
-        top: 48vh;
+        top: 32vh;
         text-align: end;
         color: azure;
     }
@@ -315,7 +315,7 @@
     .textocarrusel {
         position: absolute;
         font-size: 1.5vh;
-        top: 58vh;
+        top: 40vh;
         text-align: end;
         color: azure;
     }
@@ -399,7 +399,7 @@
     .textocarrusel {
         position: absolute;
         font-size: 1.5vh;
-        top: 55vh;
+        top: 28vh;
         right: auto;
         text-align: end;
         color: azure;
