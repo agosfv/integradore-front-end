@@ -502,7 +502,7 @@
         display: flex;
         justify-content: flex-end;
         font-size: 1.5vh;
-        top: 49vh;
+        top: 20vh;
         right:1vh;
         text-align: end;
         color: azure;
@@ -605,7 +605,7 @@
             display: flex;
             justify-content: flex-end;
             font-size: 1.5vh;
-            top: 94vh;
+            top: 40vh;
             right: 2vh;
             text-align: end;
             color: azure;
@@ -708,7 +708,7 @@
                 display: flex;
                 justify-content: flex-end;
                 font-size: 1.5vh;
-                top: 105vh;
+                top: 80vh;
                 right: 1vh;
                 text-align: end;
                 color: azure;
