@@ -67,7 +67,9 @@
     width: fit-content
 }
 
-
+#honolulu{
+    background-color: grey;
+}
 #form {
     display: flex;
     justify-content: center;
@@ -228,8 +230,7 @@
     .textocarrusel {
         position: absolute;
         font-size: 1vh;
-        top: 28vh;
-        right: 2vh;
+        top: 48vh;
         text-align: end;
         color: azure;
     }
@@ -315,9 +316,7 @@
     .textocarrusel {
         position: absolute;
         font-size: 1.5vh;
-        top: 33vh;
-        right: 3vh;
-
+        top: 58vh;
         text-align: end;
         color: azure;
     }
@@ -401,9 +400,8 @@
     .textocarrusel {
         position: absolute;
         font-size: 1.5vh;
-        top: 35vh;
-        right: 5vh;
-
+        top: 55vh;
+        right: auto;
         text-align: end;
         color: azure;
     }
@@ -502,10 +500,11 @@
 
     .textocarrusel {
         position: absolute;
+        display: flex;
+        justify-content: flex-end;
         font-size: 1.5vh;
-        top: 50vh;
-        right: 5vh;
-
+        top: 49vh;
+        right:1vh;
         text-align: end;
         color: azure;
     }
@@ -604,10 +603,11 @@
 
         .textocarrusel {
             position: absolute;
+            display: flex;
+            justify-content: flex-end;
             font-size: 1.5vh;
-            top: 75vh;
-            right: 5vh;
-
+            top: 94vh;
+            right: 2vh;
             text-align: end;
             color: azure;
         }
@@ -706,9 +706,11 @@
 
             .textocarrusel {
                 position: absolute;
+                display: flex;
+                justify-content: flex-end;
                 font-size: 1.5vh;
-                top: 95vh;
-                right: 5vh;
+                top: 105vh;
+                right: 1vh;
                 text-align: end;
                 color: azure;
             }
