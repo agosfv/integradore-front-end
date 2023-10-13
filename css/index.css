@@ -22,9 +22,11 @@
 .header {
     height: auto;
 }
-#carouselExample{
+
+#carouselExample {
     filter: brightness(60%);
 }
+
 #btncompra {
     background-color: rgb(69, 223, 69);
     outline: rgb(69, 223, 69);
@@ -67,12 +69,14 @@
     width: fit-content
 }
 
-#honolulu{
+#honolulu {
     background-color: grey;
 }
-#charla{
-border-bottom: 3px dotted;
+
+#charla {
+    border-bottom: 3px dotted;
 }
+
 #form {
     display: flex;
     justify-content: center;
@@ -92,7 +96,7 @@ border-bottom: 3px dotted;
     margin: auto;
 }
 
-#recuerdatitulo{
+#recuerdatitulo {
     color: grey;
 }
 
@@ -222,9 +226,12 @@ border-bottom: 3px dotted;
     }
 
     .textocarrusel {
+        display: flex;
+        justify-content: right;
+        right: 1vh;
         position: absolute;
         font-size: 1vh;
-        top: 30vh;
+        top: 18vh;
         text-align: end;
         color: azure;
     }
@@ -305,9 +312,12 @@ border-bottom: 3px dotted;
     }
 
     .textocarrusel {
+        display: flex;
+        justify-content: right;
+        right: 1vh;
         position: absolute;
         font-size: 1.5vh;
-        top: 37vh;
+        top: 20vh;
         text-align: end;
         color: azure;
     }
@@ -370,7 +380,7 @@ border-bottom: 3px dotted;
     }
 
 
-   #menu {
+    #menu {
         display: flex;
         justify-content: center;
         margin: auto;
@@ -380,10 +390,14 @@ border-bottom: 3px dotted;
     .links {
         display: none;
     }
+
     .textocarrusel {
+        display: flex;
+        justify-content: right;
+        right: 1vh;
         position: absolute;
         font-size: 1.5vh;
-        top: 28vh;
+        top: 22vh;
         right: auto;
         text-align: end;
         color: azure;
@@ -440,10 +454,11 @@ border-bottom: 3px dotted;
 }
 
 @media (min-width: 1400px) and (max-width: 2500px) {
-    .barranav{
+    .barranav {
         margin: auto;
         text-align: center;
-       }
+    }
+
     #logo {
         display: inline-flex;
         justify-content: flex-start;
@@ -458,7 +473,7 @@ border-bottom: 3px dotted;
     .barranav span a {
         display: inline-flex;
         justify-content: space-around;
-        text-align: center;        
+        text-align: center;
         /*justify-content: space-around;*/
         color: rgb(199, 196, 196);
     }
@@ -478,12 +493,12 @@ border-bottom: 3px dotted;
     }
 
     .textocarrusel {
-        position: absolute;
         display: flex;
-        justify-content: flex-end;
+        justify-content: right;
+        right: 1vh;
+        position: absolute;
         font-size: 1.5vh;
         top: 20vh;
-        right:1vh;
         text-align: end;
         color: azure;
     }
@@ -537,205 +552,209 @@ border-bottom: 3px dotted;
 
 }
 
-    @media (min-width: 2501px) and (max-width: 3500px) {
+@media (min-width: 2501px) and (max-width: 3500px) {
 
-.barranav{
+    .barranav {
 
         margin: auto;
         text-align: center;
 
-       }
-        #logo {
-            display: inline-flex;
-            justify-content: space-around;
-        }
+    }
 
-        #confbsas {
-            display: inline-flex;
-            justify-content: space-around;
+    #logo {
+        display: inline-flex;
+        justify-content: space-around;
+    }
 
-        }
-
-        .barranav span a {
-            display: inline-flex;
-            justify-content: space-around;
-            text-align: center;
-            margin: auto;
-            justify-content: space-around;
-            color: rgb(199, 196, 196);
-        }
-
-        #laconf {
-            color: azure;
-            margin: auto;
-        }
-
-        #compratik {
-            color: rgb(69, 223, 69);
-            margin: auto;
-        }
-
-        #menu {
-            display: none;
-        }
-
-        .textocarrusel {
-            position: absolute;
-            display: flex;
-            justify-content: flex-end;
-            font-size: 1.5vh;
-            top: 40vh;
-            right: 2vh;
-            text-align: end;
-            color: azure;
-        }
-
-        .textocarrusel h3 {
-            font-size: 2vh;
-        }
-
-        .textocarrusel button {
-            display: flex grid;
-            justify-content: flex-end;
-            margin: 10px;
-            color: azure;
-        }
-
-        .conoceora {
-            display: block;
-            text-align: center;
-            margin: 20px;
-        }
-
-        .conoceora h2 {
-            font-size: 4vh;
-        }
-
-        .conoceora h3 {
-            font-size: 8vh;
-        }
-
-        #mainimg {
-            display: flex;
-            justify-content: space-evenly;
-            margin-top: 60px;
-            margin-bottom: 20px;
-        }
-
-        #honolulu {
-            display: inline-flex;
-        }
-
-        #textohon {
-            background-color: grey;
-        }
-
-        #form {
-            display: flex;
-            justify-content: center;
-            margin: auto;
-            margin-bottom: 10px;
-        }
+    #confbsas {
+        display: inline-flex;
+        justify-content: space-around;
 
     }
 
-        @media (min-width: 3501px) and (max-width: 9999px) {
-            .barranav{
-                margin: auto;
-                text-align: center;
-               }
-            #logo {
-                display: inline-flex;
-                justify-content: flex-start;
-            }
+    .barranav span a {
+        display: inline-flex;
+        justify-content: space-around;
+        text-align: center;
+        margin: auto;
+        justify-content: space-around;
+        color: rgb(199, 196, 196);
+    }
 
-            #confbsas {
-                display: inline-flex;
-                justify-content: flex-start;
+    #laconf {
+        color: azure;
+        margin: auto;
+    }
 
-            }
+    #compratik {
+        color: rgb(69, 223, 69);
+        margin: auto;
+    }
 
-            .barranav span a {
-                display: inline-flex;
-                justify-content: space-around;
-                text-align: center;
-                margin: auto;
-                /*justify-content: space-around;*/
-                color: rgb(199, 196, 196);
-            }
+    #menu {
+        display: none;
+    }
 
-            #laconf {
-                color: azure;
-                margin: auto;
-            }
+    .textocarrusel {
+        position: absolute;
+        display: flex;
+        justify-content: right;
+        right: 1vh;
+        font-size: 1.5vh;
+        top: 40vh;
 
-            #compratik {
-                color: rgb(69, 223, 69);
-                margin: auto;
-            }
+        text-align: end;
+        color: azure;
+    }
 
-            #menu {
-                display: none;
-            }
+    .textocarrusel h3 {
+        font-size: 2vh;
+    }
 
-            .textocarrusel {
-                position: absolute;
-                display: flex;
-                justify-content: flex-end;
-                font-size: 1.5vh;
-                top: 80vh;
-                right: 1vh;
-                text-align: end;
-                color: azure;
-            }
+    .textocarrusel button {
+        display: flex grid;
+        justify-content: flex-end;
+        margin: 10px;
+        color: azure;
+    }
 
-            .textocarrusel h3 {
-                font-size: 2vh;
-            }
+    .conoceora {
+        display: block;
+        text-align: center;
+        margin: 20px;
+    }
 
-            .textocarrusel button {
-                display: flex grid;
-                justify-content: flex-end;
-                margin: 10px;
-                color: azure;
-            }
+    .conoceora h2 {
+        font-size: 4vh;
+    }
 
-            .conoceora {
-                display: block;
-                text-align: center;
-                margin: 20px;
-            }
+    .conoceora h3 {
+        font-size: 8vh;
+    }
 
-            .conoceora h2 {
-                font-size: 1vh;
-            }
+    #mainimg {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
 
-            .conoceora h3 {
-                font-size: 2vh;
-            }
+    #honolulu {
+        display: inline-flex;
+    }
 
-            #mainimg {
-                display: flex;
-                justify-content: space-evenly;
-                margin-top: 20px;
-                margin-bottom: 20px;
-            }
+    #textohon {
+        background-color: grey;
+    }
+
+    #form {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (min-width: 3501px) and (max-width: 9999px) {
+    .barranav {
+        margin: auto;
+        text-align: center;
+    }
+
+    #logo {
+        display: inline-flex;
+        justify-content: flex-start;
+    }
+
+    #confbsas {
+        display: inline-flex;
+        justify-content: flex-start;
+
+    }
+
+    .barranav span a {
+        display: inline-flex;
+        justify-content: space-around;
+        text-align: center;
+        margin: auto;
+        /*justify-content: space-around;*/
+        color: rgb(199, 196, 196);
+    }
+
+    #laconf {
+        color: azure;
+        margin: auto;
+    }
+
+    #compratik {
+        color: rgb(69, 223, 69);
+        margin: auto;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .textocarrusel {
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 1.5vh;
+        top: 80vh;
+        right: 1vh;
+        text-align: end;
+        color: azure;
+    }
+
+    .textocarrusel h3 {
+        font-size: 2vh;
+    }
+
+    .textocarrusel button {
+        display: flex grid;
+        justify-content: flex-end;
+        margin: 10px;
+        color: azure;
+    }
+
+    .conoceora {
+        display: block;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .conoceora h2 {
+        font-size: 1vh;
+    }
+
+    .conoceora h3 {
+        font-size: 2vh;
+    }
+
+    #mainimg {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
 
-            #honolulu {
-                display: inline-flex;
-            }
+    #honolulu {
+        display: inline-flex;
+    }
 
-            #textohon {
-                background-color: grey;
-            }
+    #textohon {
+        background-color: grey;
+    }
 
-            #form {
-                display: flex;
-                justify-content: center;
-                margin: auto;
-                margin-bottom: 10px;
-            }
+    #form {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 10px;
+    }
 
-        }
-        /*actualizacion del css numero 2.7 arreglo*/
+}
+
+/*actualizacion del css numero 3 arreglo*/
